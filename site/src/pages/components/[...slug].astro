@@ -22,12 +22,6 @@ const { Content } = await render(component);
   <Content components={{ ...component, Tabs, TabItem, Preview, CodeBlock }} />
 </Layout>
 
-<style is:global>
-  input {
-    border-color: red !important;
-  }
-</style>
-
 <script>
   import "baseline-status";
 </script>

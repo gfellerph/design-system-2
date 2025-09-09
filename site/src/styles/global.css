@@ -168,3 +168,7 @@ baseline-status {
   max-width: none;
   margin-block: 1.5rem;
 }
+
+@view-transition {
+  navigation: auto;
+}
